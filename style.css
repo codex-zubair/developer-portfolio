@@ -15,7 +15,7 @@ h1
     color: orange;
 }
 
-section
+.flex-section
 {
     display: flex;
 }
@@ -60,4 +60,34 @@ p{
    background-image: url(images/dream-bg.png);
    background-repeat: no-repeat; 
    background-position: right;
+}
+
+
+.experience-section
+{
+    display: flex;
+    
+
+}
+
+
+.full-stack-developer
+{
+    
+    margin: 10px;
+    padding: 10px;
+    border-left: 5px solid red;
+}
+
+.baby-developer
+{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+footer
+{
+    text-align: center;
 }
