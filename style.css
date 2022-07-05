@@ -66,6 +66,9 @@ p{
 .experience-section
 {
     display: flex;
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     
 
 }
@@ -75,19 +78,22 @@ p{
 {
     
     margin: 10px;
-    padding: 10px;
-    border-left: 5px solid red;
+    padding: 15px;
+    border-left: 5px solid orange;
+
+    box-shadow: 10px 5px 50px #8888;
 }
 
 .baby-developer
 {
-    background-color: red;
     margin: 10px;
     padding: 10px;
+    border-left: 5px solid blue;
+    box-shadow: 10px 5px 50px #8888;
 }
 
 
-footer
+footer p
 {
     text-align: center;
 }
